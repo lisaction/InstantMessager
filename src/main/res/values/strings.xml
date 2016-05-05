@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LLIM</string>
+    <string name="reg_button">register</string>
+    <string name="main_signIn_button">Sign In</string>
+    <string name="main_signUp_button">Sign Up</string>
+    <string name="main_signIn_hint">already have an account?</string>
+    <string name="main_signUp_hint">do not have an account?</string>
+    <string name="main_cancel_button">cancel</string>
+    <string name="main_userName_hint">user name</string>
+    <string name="main_password_hint">password</string>
+    <string name="chat_send_button">send</string>
+    <string name="main_passwordConfirm_hint">password again</string>
+    <string name="signUp_confirmPw_textView">confirm password</string>
+    <string name="friendList_reason_hint">reason for adding friend</string>
+    <string name="friendList_add_hint">search by user name </string>
+</resources>

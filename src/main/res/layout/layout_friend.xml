@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friend_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bars_height"
+    android:background="@color/colorPrimaryLight">
+    <ImageView
+        android:id="@+id/friend_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/icon_account"/>
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/friend_image"
+            android:layout_toEndOf="@id/friend_image"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textSize="@dimen/activity_primary_fontSize"
+            android:text="好友昵称"/>
+
+        <!-- The message abstract view, currently invisible. -->
+        <TextView
+            android:id="@+id/contact_abstract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/friend_name"
+            android:layout_marginTop="@dimen/small_padding"
+            android:textSize="@dimen/activity_secondary_fontSize"
+            android:text="message abstract"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/textView_message_prompt"
+            android:layout_width="@dimen/prompt_size"
+            android:layout_height="@dimen/prompt_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/medium_padding"
+            android:background="@drawable/shape_prompt_icon"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="@dimen/prompt_fontSize"
+            android:visibility="invisible"/>
+</RelativeLayout>
